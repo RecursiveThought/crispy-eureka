@@ -1,5 +1,8 @@
 {
-  "name"    : "test-app",
-  "version" : "0.0.0",
-  "main"    : "main.js"
+  "name": "test-app",
+  "version": "0.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "d3": "^4.4.1"
+  }
 }
