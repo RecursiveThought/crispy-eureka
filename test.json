@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"id": "A", "group": 1},
+    {"id": "B", "group": 1},
+    {"id": "C", "group": 2},
+    {"id": "D", "group": 2},
+    {"id": "E", "group": 3},
+    {"id": "F", "group": 4},
+    {"id": "G", "group": 5}
+  ],
+  "links": [
+    {"source": "A", "target": "B", "value": 1},
+    {"source": "A", "target": "C", "value": 1},
+    {"source": "B", "target": "D", "value": 1},
+    {"source": "B", "target": "E", "value": 1},
+
+    {"source": "E", "target": "B", "value": 1},
+    {"source": "F", "target": "B", "value": 1},
+    {"source": "G", "target": "C", "value": 1}
+  ]
+}
+
